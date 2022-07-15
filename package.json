@@ -1,0 +1,27 @@
+{
+  "name": "tailwind-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tailwindcss -i src/input.css -o ./css/main.css",
+    "watch" : "tailwindcss -i src/input.css -o ./css/main.css --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redemple332/Tailwind-Crash-Course.git"
+  },
+  "keywords": [],
+
+  
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redemple332/Tailwind-Crash-Course/issues"
+  },
+  "homepage": "https://github.com/Redemple332/Tailwind-Crash-Course#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}

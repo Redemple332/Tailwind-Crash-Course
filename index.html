@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Memu</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="text-white bg-blue-400 font-body">  
+    <div class="grid md:grid-cols-3">
+      <div>
+        <!-- nav here -->
+        <nav>
+           <div>
+               <h1 class="font-bold uppercase p-4 border-b border-gray-400">
+                 <a href="/" class="">Food Ninja</a>
+               </h1>
+           </div>
+           <ul>
+             <li class="font-bold">
+               <a href="#">
+                 <span>Home</span>
+               </a>
+             </li>
+             <li>
+               <a href="#">
+                 <span>About</span>
+               </a>
+             </li>
+             <li>
+               <a href="#">
+                 <span>Contact</span>
+               </a>
+             </li>
+           </ul>
+        </nav>
+        <!-- end nav -->
+     </div>
+
+     <main class="px-16 py-6 md:col-span-2">
+        <div class="flex justify-center md:justify-end gap-4 text-primary">
+          <a class="btn border-primary md:border-2" href="#">Login</a>
+          <a class="btn  border-primary md:border-2" href="#">Sign Up</a>
+        </div>
+
+        <header class="font-semibold">
+          <h2 class="text-6xl">Receipes</h2>
+          <h3 class="text-2xl">For Ninjas</h3>
+        </header>
+
+        <div class="mt-12">
+          <h4 class="font-bold pb-2 border-b border-gray-300">Latest Receipes</h4>
+    
+          <div class="mt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <!-- cards go here -->
+            <div class="card">
+
+              <img src="img/1.jpg" class="w-full h-32 sm:h-48 object-cover" alt="">
+              <div class="m-4">
+                <span class="text-gray-700 font-bold text-lg">5 Bean Chill Stew</span>
+                <span class="block text-gray-500 text-sm">Receipe by Redemple</span>
+              </div>
+              <div class="badge">
+                <span >25 minutes</span>
+              </div>
+            </div>
+
+            <!-- cards go here -->
+            <div class="card">
+              <img src="img/2.jpg" class="w-full h-32 sm:h-48 object-cover" alt="">
+              <div class="m-4">
+                <span class="text-gray-700 font-bold text-lg">Cheesy Pizza</span>
+                <span class="block text-gray-500 text-sm">Receipe by Redemple</span>
+              </div>
+              <div class="badge">
+                <span >15 minutes</span>
+              </div>
+            </div>
+
+            <!-- cards go here -->
+            <div class="card">
+              <img src="img/3.jpg" class="w-full h-32 sm:h-48 object-cover" alt="">
+              <div class="m-4">
+                <span class="text-gray-700 font-bold text-lg">Beef Pares</span>
+                <span class="block text-gray-500 text-sm">Receipe by Redemple</span>
+              </div>
+              <div class="badge">
+                <span >39 minutes</span>
+              </div>
+            </div>
+          </div>
+          
+          <h4 class="font-bold mt-12 pb-2 border-b border-gray-300">Most Popular</h4>
+
+          <div class="mt-8">
+            <!-- card go here -->
+          </div>
+
+          <div class="flex justify-center">
+            <div class="btn hover:text-white hover:bg-sky-300 bg-secondary-100 text-secondary-200 px-2">Load more</div>
+          </div>
+        </div>
+     </main>
+    </div>
+  </body>
+</html>
